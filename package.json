@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/LionX-S/create_private_npm#readme",
   "dependencies": {
+    "axios": "^1.5.1",
     "react": "^18.2.0"
-  },
-  "devDependencies": {}
+  }
 }
