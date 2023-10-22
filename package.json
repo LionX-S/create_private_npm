@@ -1,0 +1,26 @@
+{
+  "name": "create_private_npm",
+  "version": "1.0.0",
+  "description": "用于生成某个项目特定版本的node_modules脚本 - 私有npm仓库建议使用docker+verdaccio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "installModules": "node ./scripts/installModules.js",
+    "publishModules": "node ./scripts/publishModules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LionX-S/create_private_npm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LionX-S/create_private_npm/issues"
+  },
+  "homepage": "https://github.com/LionX-S/create_private_npm#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {}
+}
